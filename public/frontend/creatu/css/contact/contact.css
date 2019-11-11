@@ -1,0 +1,25 @@
+.contact-top h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.contact-top h2>span{
+	color: var(--primary-color);
+}
+.footer-icon{
+	border-top: 1px solid #eaeaea;
+	text-align: center;
+}
+.footer-icon p{
+	position: relative;
+	bottom: 33px;
+	background: #eaeaea;
+	display: inline-block;
+	padding: 15px 20px;
+	border-radius: 100px;
+}
+.footer-text h3{
+	text-align: center;
+}
+.footer-text p{
+	text-align: center;
+}

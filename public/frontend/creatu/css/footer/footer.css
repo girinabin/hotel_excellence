@@ -1,0 +1,120 @@
+.footer-bg{
+	background: linear-gradient(rgba(176,117,17,0.7), rgba(176,117,17,0.7)), url('../../../images/img-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/*footer information*/
+.footer-info h5{
+	color: #fff;
+}
+.footer-info p{
+	color: #ddd;
+	text-align: justify;
+	font-size: 14px;
+}
+.footer-info ul{
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+.footer-info ul>li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.footer-info ul>li>a{
+	color: #ddd;
+}
+.footer-info ul>li>a>i{
+	color: #ddd;
+	transition: all 0.5s ease-in-out;
+}
+.footer-info ul>li>a>i:hover{
+	color: #fff;
+}
+
+
+
+
+.footer-copyright-bg{
+	background: var(--secondary-color);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-copyright-left p{
+	margin-bottom: 0;
+	text-transform: uppercase;
+	color: #ccc;
+	font-size: 12px;
+}
+.footer-copyright-right p{
+	text-align: right;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	color: #ccc;
+	font-size: 12px;
+}
+.footer-copyright-right p>a{
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.4s ease-in-out;
+}
+.footer-copyright-right p>a:hover{
+	color: #ccc;
+}
+
+
+
+/*footer feedback*/
+.footer-feedback h5{
+	color: #fff;
+}
+.footer-feedback form input{
+	border-radius: 0;
+}
+.footer-feedback form textarea{
+	border-radius: 0;
+}
+.footer-feedback form button{
+	width: 100%;
+	border-radius: 0;
+	background: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+/*footer contact*/
+.footer-contact h5{
+	color: #fff;
+}
+.footer-contact p{
+	color: #ccc;
+	text-align: justify;
+	font-size: 14px;
+}
+.footer-contact ul{
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.footer-contact ul>li{
+	display: block;
+}
+.footer-contact ul>li>a>p{
+	color: #ccc;
+	transition: all 0.5s ease-in-out;
+}
+.footer-contact ul>li>a>p:hover{
+	color: #fff;
+}
+.footer-contact ul>li>a>p>i{
+	width: 25px;
+}

@@ -1,0 +1,27 @@
+.suite-top h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.suite-top h2>span{
+	color: var(--primary-color);
+}
+.suite-top p{
+	text-align: justify;
+}
+.suite-top h4{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.suite-image{
+	height: 300px;
+	overflow: hidden;
+	background: #000;/*#d5d5d5*/
+	border-radius: none;
+}
+.suite-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	opacity: 1;
+}

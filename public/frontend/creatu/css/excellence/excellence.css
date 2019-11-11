@@ -1,0 +1,76 @@
+.excellence-top h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+.excellence-top p{
+	text-align: justify;
+	padding-bottom: 10px;
+}
+.excellence-image{
+	height: 400px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.excellence-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.excellence-top h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.excellence-top h2>span{
+	color: var(--primary-color);
+}
+.excellence-card-image{
+	height: 200px;
+	overflow: hidden;
+	padding: 40px 40px;
+}
+.excellence-card-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.excellence-card{
+	border: 1px solid #ddd;
+	margin-bottom: 30px;
+	transition: all 0.4s ease-in-out;
+	margin-top: 20px
+}
+.excellence-card p{
+	/*padding-top: 30px*/;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.excellence-card:hover{
+	box-shadow: 10px 0 10px 10px #eaeaea;
+}
+.modal-body p{
+	text-align: justify;
+}
+.modal-title {
+	text-transform: capitalize!important;
+}
+.excellence-image1{
+	height: 400px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.excellence-image1 img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.excellence-image2{
+	height: 400px;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.excellence-image2 img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}

@@ -1,0 +1,29 @@
+.header-bg{
+	background: var(--secondary-color);
+}
+.header-logo{
+	height: 75px;
+	overflow: hidden;
+}
+.header-logo img{
+	height: 100%;
+	object-fit: contain;
+}
+.header-menu ul{
+
+}
+.header-menu ul>li{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.header-menu ul>li>a{
+	text-transform: uppercase;
+	color: #fff!important;
+}
+.dropdown-menu a{
+	text-transform: uppercase;
+}
+.dropdown:hover>.dropdown-menu{
+  	display: block;
+  	margin-top: -5px;
+  }

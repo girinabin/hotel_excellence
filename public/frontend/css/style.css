@@ -1,0 +1,149 @@
+:root{
+	--primary-color: #df212a;
+	--secondary-color: #b1760c;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+p{
+	color: #555;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+
+a{
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.pad-0{
+	padding: 0;
+}
+.pad-top{
+	padding-top: 70px;
+}
+.pad-bot{
+	padding-bottom: 70px;
+}
+.padding-tb{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.top-bg h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+.treasure-global-btn{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.treasure-global-btn p{
+	text-align: center;
+	text-transform: uppercase;
+}
+.treasure-global-btn p>span{
+	background: linear-gradient(to bottom, #ee1f25 50%, #b1760c 50%);
+	background-size: 100% 200%;
+	background-position: left top;
+	transition: all 0.5s ease-in-out;
+	color: #fff;
+	padding: 15px 30px;
+}
+.treasure-global-btn p>span:hover{
+	background-position: left bottom; 
+	color: #fff;
+}
+
+.treasure-global-btn1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	position: relative;
+	top: 7px;
+}
+.treasure-global-btn1 p{
+	text-align: center;
+	text-transform: uppercase;
+}
+.treasure-global-btn1 p>span{
+	background: linear-gradient(to bottom, #ee1f25 50%, #b1760c 50%);
+	background-size: 100% 200%;
+	background-position: left top;
+	transition: all 0.5s ease-in-out;
+	color: #fff;
+	padding: 15px 30px;
+}
+.treasure-global-btn1 p>span:hover{
+	background-position: left bottom; 
+	color: #fff;
+}
+
+/*.relative-albumcontent {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}*/
+.relative-albumcontent {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.relative-container:hover .album-image{
+	opacity: 0.3;
+	transform: scale(1.1);
+}
+
+.relative-container:hover .relative-albumcontent{
+	opacity: 1;
+}
+
+.album-link{
+	padding: 20px 12px;
+	color: #fff;
+	font-size: 16px;
+	background: 
+}
+.album-link:hover{
+	padding: 20px 12px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.album-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.aboutsum
+{
+	color: #555;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}

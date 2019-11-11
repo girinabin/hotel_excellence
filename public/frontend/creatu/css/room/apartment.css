@@ -1,0 +1,24 @@
+.apartment-top h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.apartment-top p{
+	text-align: justify;
+}
+.apartment-top h4{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.apartment-image{
+	height: 300px;
+	overflow: hidden;
+	background: #000;/*#000*/
+	border-radius: none;
+}
+.apartment-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	opacity: 1;
+}
